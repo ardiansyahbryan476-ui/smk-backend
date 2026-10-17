@@ -1,0 +1,43 @@
+# SMK Backend
+
+## Deskripsi
+Project ini dibuat untuk memenuhi tugas praktik seleksi member TEFA. Project ini menggunakan PHP dan MySQL untuk menghubungkan aplikasi dengan database serta menampilkan data anggota.
+
+## Teknologi yang Digunakan
+- PHP
+- MySQL/MariaDB
+- Laragon
+- HeidiSQL
+- Visual Studio Code
+
+## Fitur
+- Menghubungkan PHP dengan database MySQL.
+- Menampilkan pesan koneksi database berhasil.
+- Menampilkan data anggota berupa ID, nama, dan kelas.
+
+## Struktur File
+- `index.php` — file utama untuk menghubungkan PHP ke database dan menampilkan data anggota.
+- `database.sql` — file SQL untuk membuat database, tabel, dan data contoh.
+- `README.md` — dokumentasi project.
+
+## Cara Menjalankan
+1. Instal dan buka Laragon.
+2. Klik **Start All** untuk menjalankan layanan yang diperlukan.
+3. Pastikan database `smk` dan tabel `anggota` sudah tersedia.
+4. Letakkan folder project di `C:\laragon\www\smk-backend`.
+5. Buka browser.
+6. Akses `http://localhost/smk-backend/`.
+7. Pastikan pesan koneksi berhasil dan data anggota tampil.
+
+## Struktur Database
+Database: `smk`
+
+Tabel: `anggota`
+
+Kolom:
+- `id` — ID anggota sebagai primary key dan auto increment.
+- `nama` — nama anggota.
+- `kelas` — kelas anggota.
+
+## Catatan
+Project ini dibuat sebagai latihan backend dasar menggunakan PHP dan MySQL. Jangan mengunggah password asli atau informasi rahasia ke GitHub.
