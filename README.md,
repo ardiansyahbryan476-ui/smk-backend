@@ -38,6 +38,3 @@ Kolom:
 - `id` — ID anggota sebagai primary key dan auto increment.
 - `nama` — nama anggota.
 - `kelas` — kelas anggota.
-
-## Catatan
-Project ini dibuat sebagai latihan backend dasar menggunakan PHP dan MySQL. Jangan mengunggah password asli atau informasi rahasia ke GitHub.
